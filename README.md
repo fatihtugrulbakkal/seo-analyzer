@@ -18,7 +18,7 @@ SEO Optimizasyon Aracı, web sitenizin SEO analizini yapar ve içerik optimizasy
 ## 🚀 Kurulum
 
 1. Bu projeyi bilgisayarınıza indirin:
-   git clone https://github.com/fatihtugrulbakkal/seoanalyzer.git
+   git clone https://github.com/fatihtugrulbakkal/seo-analyzer.git
    
 Gerekli bağımlılıkları yükleyin:
 npm install
