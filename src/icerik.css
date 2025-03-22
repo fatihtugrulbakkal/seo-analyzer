@@ -1,0 +1,148 @@
+.seo-content-control {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.input-group textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.seo-result {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.seo-result h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.result-item strong {
+    color: #333;
+}
+
+.result-item p {
+    font-size: 14px;
+    color: #777;
+    margin-left: 10px;
+}
+
+.result-item svg {
+    margin-left: 10px;
+}
+
+.result-item svg.green {
+    color: green;
+}
+
+.result-item svg.red {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .seo-content-control {
+        padding: 15px;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    .seo-result {
+        padding: 10px;
+    }
+
+    .result-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .result-item strong {
+        margin-bottom: 5px;
+    }
+}
